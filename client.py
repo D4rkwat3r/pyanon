@@ -56,7 +56,7 @@ class AnonClient(HttpClient):
 
         """
         Login to an existing account. 
-        On success, sets authorization tokens in the headerы and returns Account instance
+        On success, sets authorization tokens in the headers and returns Account instance
         """
 
         data: dict = {
