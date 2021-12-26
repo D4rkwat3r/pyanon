@@ -186,7 +186,7 @@ class AnonClient(HttpClient):
         On success, returns Room instance
         """
 
-        if len(kwargs) != 1 :
+        if len(kwargs) > 2:
             raise TypeError("Invalid arguments")
         if "username" not in kwargs and "rocketId" not in kwargs:
             raise TypeError("Invalid arguments")
