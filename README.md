@@ -1,7 +1,5 @@
 # pyanon
-Api for new anonym client
-
-Installation: pip install pyanon
+## Api for new anonym client
 
 ### Echo bot
 ```python3
@@ -20,3 +18,5 @@ async def messageListener(event: pyanon.Notification):
 
 asyncio.get_event_loop().run_until_complete(main())
 ```
+
+### Installation: pip install pyanon
