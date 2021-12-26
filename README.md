@@ -1,5 +1,8 @@
 # pyanon
 Api for new anonym client
+
+Installation: pip install pyanon
+
 ### Echo bot
 ```python3
 import pyanon
