@@ -7,8 +7,8 @@ class InvalidUser(Exception):
         super().__init__(message)
 
 class InvalidRoom(Exception):
-    def __init__(self, mesage: str) -> None:
-        super().__init__(mesage)
+    def __init__(self, message: str) -> None:
+        super().__init__(message)
 
 class UserNotInRoom(Exception):
     def __init__(self, message: str) -> None:
